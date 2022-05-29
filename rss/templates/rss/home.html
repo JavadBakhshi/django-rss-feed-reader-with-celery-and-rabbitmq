@@ -11,9 +11,11 @@
             <div class="col-md-12">
                 {% for i in all_data %}
                     <div class="col-md-4 clearfix">
-                    <p>{{ i.title }}</p>
+                    <a href="{{ i.url }}">{{ i.title }}</a>
+                    <P>****</P>
 
                 {% endfor %}
+
 
                 </div>
 
